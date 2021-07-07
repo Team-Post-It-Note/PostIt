@@ -3,6 +3,7 @@ const Rest = require ('../models/Restaurant.js');
 
 const KEY = process.env.YELP_API_KEY;
 
+// Instead of having JWT things copy/pasted into each file, you could have made a separate jwks module with the jwksClient and getKey function, and require'd that into each of your other modules.
 //---------------------JWT THINGS-----------------------------
 
 const jwt = require('jsonwebtoken');
