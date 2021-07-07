@@ -79,6 +79,7 @@ bower_components
 build/Release
 
 # Dependency directories
+# You still ended up with node_modules committed in your project.
 node_modules/
 jspm_packages/
 
